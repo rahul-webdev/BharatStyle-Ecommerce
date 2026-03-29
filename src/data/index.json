@@ -1,0 +1,618 @@
+{
+  "siteConfig": {
+    "name": "StoreName",
+    "description": "We have clothes that suits your style and which you’re proud to wear. From women to men.",
+    "currency": {
+      "code": "INR",
+      "symbol": "₹",
+      "locale": "en-IN"
+    },
+    "socialLinks": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "github": "https://github.com"
+    },
+    "contact": {
+      "address": "123, Store Street, City, State 123456, Country",
+      "email": "support@yourstore.com",
+      "phone": "+91 98765 43210"
+    }
+  },
+  "navbar": [
+    {
+      "id": 1,
+      "label": "Shop",
+      "type": "MenuList",
+      "children": [
+        {
+          "id": 11,
+          "label": "Men's clothes",
+          "url": "/shop#men-clothes",
+          "description": "In attractive and spectacular colors and designs"
+        },
+        {
+          "id": 12,
+          "label": "Women's clothes",
+          "url": "/shop#women-clothes",
+          "description": "Ladies, your style and tastes are important to us"
+        },
+        {
+          "id": 13,
+          "label": "Kids clothes",
+          "url": "/shop#kids-clothes",
+          "description": "For all ages, with happy and beautiful colors"
+        },
+        {
+          "id": 14,
+          "label": "Bags and Shoes",
+          "url": "/shop#bag-shoes",
+          "description": "Suitable for men, women and all tastes and styles"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "MenuItem",
+      "label": "On Sale",
+      "url": "/shop#on-sale",
+      "children": []
+    },
+    {
+      "id": 3,
+      "type": "MenuItem",
+      "label": "New Arrivals",
+      "url": "/shop#new-arrivals",
+      "children": []
+    },
+    {
+      "id": 4,
+      "type": "MenuItem",
+      "label": "Brands",
+      "url": "/shop#brands",
+      "children": []
+    }
+  ],
+  "footerLinks": [
+    {
+      "id": 1,
+      "title": "company",
+      "children": [
+        {
+          "id": 11,
+          "label": "about",
+          "url": "#"
+        },
+        {
+          "id": 12,
+          "label": "features",
+          "url": "#"
+        },
+        {
+          "id": 13,
+          "label": "works",
+          "url": "#"
+        },
+        {
+          "id": 14,
+          "label": "career",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "help",
+      "children": [
+        {
+          "id": 21,
+          "label": "customer support",
+          "url": "#"
+        },
+        {
+          "id": 22,
+          "label": "delivery details",
+          "url": "#"
+        },
+        {
+          "id": 23,
+          "label": "terms & conditions",
+          "url": "#"
+        },
+        {
+          "id": 24,
+          "label": "privacy policy",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "faq",
+      "children": [
+        {
+          "id": 31,
+          "label": "account",
+          "url": "#"
+        },
+        {
+          "id": 32,
+          "label": "manage deliveries",
+          "url": "#"
+        },
+        {
+          "id": 33,
+          "label": "orders",
+          "url": "#"
+        },
+        {
+          "id": 34,
+          "label": "payments",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "resources",
+      "children": [
+        {
+          "id": 41,
+          "label": "Free eBooks",
+          "url": "#"
+        },
+        {
+          "id": 42,
+          "label": "development tutorial",
+          "url": "#"
+        },
+        {
+          "id": 43,
+          "label": "How to - Blog",
+          "url": "#"
+        },
+        {
+          "id": 44,
+          "label": "youtube playlist",
+          "url": "#"
+        }
+      ]
+    }
+  ],
+  "brands": [
+    {
+      "id": "versace",
+      "srcUrl": "/icons/versace-logo.svg"
+    },
+    {
+      "id": "zara",
+      "srcUrl": "/icons/zara-logo.svg"
+    },
+    {
+      "id": "gucci",
+      "srcUrl": "/icons/gucci-logo.svg"
+    },
+    {
+      "id": "prada",
+      "srcUrl": "/icons/prada-logo.svg"
+    },
+    {
+      "id": "calvin-klein",
+      "srcUrl": "/icons/calvin-klein-logo.svg"
+    }
+  ],
+  "newArrivals": [
+    {
+      "id": 1,
+      "title": "T-shirt with Tape Details",
+      "srcUrl": "/images/pic1.png",
+      "gallery": ["/images/pic1.png", "/images/pic10.png", "/images/pic11.png"],
+      "price": 1299,
+      "discount": {
+        "amount": 0,
+        "percentage": 0
+      },
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "title": "Skinny Fit Jeans",
+      "srcUrl": "/images/pic2.png",
+      "gallery": ["/images/pic2.png"],
+      "price": 2499,
+      "discount": {
+        "amount": 0,
+        "percentage": 20
+      },
+      "rating": 3.5
+    },
+    {
+      "id": 3,
+      "title": "Chechered Shirt",
+      "srcUrl": "/images/pic3.png",
+      "gallery": ["/images/pic3.png"],
+      "price": 1799,
+      "discount": {
+        "amount": 0,
+        "percentage": 0
+      },
+      "rating": 4.5
+    },
+    {
+      "id": 4,
+      "title": "Sleeve Striped T-shirt",
+      "srcUrl": "/images/pic4.png",
+      "gallery": ["/images/pic4.png", "/images/pic10.png", "/images/pic11.png"],
+      "price": 1599,
+      "discount": {
+        "amount": 0,
+        "percentage": 30
+      },
+      "rating": 4.5
+    }
+  ],
+  "topSelling": [
+    {
+      "id": 5,
+      "title": "Vertical Striped Shirt",
+      "srcUrl": "/images/pic5.png",
+      "gallery": ["/images/pic5.png", "/images/pic10.png", "/images/pic11.png"],
+      "price": 2299,
+      "discount": {
+        "amount": 0,
+        "percentage": 20
+      },
+      "rating": 5.0
+    },
+    {
+      "id": 6,
+      "title": "Courage Graphic T-shirt",
+      "srcUrl": "/images/pic6.png",
+      "gallery": ["/images/pic6.png", "/images/pic10.png", "/images/pic11.png"],
+      "price": 1399,
+      "discount": {
+        "amount": 0,
+        "percentage": 0
+      },
+      "rating": 4.0
+    },
+    {
+      "id": 7,
+      "title": "Loose Fit Bermuda Shorts",
+      "srcUrl": "/images/pic7.png",
+      "gallery": ["/images/pic7.png"],
+      "price": 799,
+      "discount": {
+        "amount": 0,
+        "percentage": 0
+      },
+      "rating": 3.0
+    },
+    {
+      "id": 8,
+      "title": "Faded Skinny Jeans",
+      "srcUrl": "/images/pic8.png",
+      "gallery": ["/images/pic8.png"],
+      "price": 1999,
+      "discount": {
+        "amount": 0,
+        "percentage": 0
+      },
+      "rating": 4.5
+    }
+  ],
+  "relatedProducts": [
+    {
+      "id": 12,
+      "title": "Polo with Contrast Trims",
+      "srcUrl": "/images/pic12.png",
+      "gallery": ["/images/pic12.png", "/images/pic10.png", "/images/pic11.png"],
+      "price": 2399,
+      "discount": {
+        "amount": 0,
+        "percentage": 20
+      },
+      "rating": 4.0
+    },
+    {
+      "id": 13,
+      "title": "Gradient Graphic T-shirt",
+      "srcUrl": "/images/pic13.png",
+      "gallery": ["/images/pic13.png", "/images/pic10.png", "/images/pic11.png"],
+      "price": 1399,
+      "discount": {
+        "amount": 0,
+        "percentage": 0
+      },
+      "rating": 3.5
+    },
+    {
+      "id": 14,
+      "title": "Polo with Tipping Details",
+      "srcUrl": "/images/pic14.png",
+      "gallery": ["/images/pic14.png"],
+      "price": 1799,
+      "discount": {
+        "amount": 0,
+        "percentage": 0
+      },
+      "rating": 4.5
+    },
+    {
+      "id": 15,
+      "title": "Black Striped T-shirt",
+      "srcUrl": "/images/pic15.png",
+      "gallery": ["/images/pic15.png"],
+      "price": 1499,
+      "discount": {
+        "amount": 0,
+        "percentage": 30
+      },
+      "rating": 5.0
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "user": "Arjun K.",
+      "content": "\"Finding clothes that align with my personal style used to be a challenge until I discovered this store. The range of options they offer is truly remarkable, catering to a variety of tastes and occasions.”",
+      "rating": 5,
+      "date": "August 14, 2023"
+    },
+    {
+      "id": 2,
+      "user": "Sneha M.",
+      "content": "\"I'm blown away by the quality and style of the clothes I received from this store. From casual wear to elegant dresses, every piece I've bought has exceeded my expectations.”",
+      "rating": 5,
+      "date": "August 15, 2023"
+    },
+    {
+      "id": 3,
+      "user": "Eshaan R.",
+      "content": "\"This t-shirt is a must-have for anyone who appreciates good design. The minimalistic yet stylish pattern caught my eye, and the fit is perfect. I can see the designer's touch in every aspect of this shirt.\"",
+      "rating": 5,
+      "date": "August 16, 2023"
+    },
+    {
+      "id": 4,
+      "user": "Ananya P.",
+      "content": "\"As a UI/UX enthusiast, I value simplicity and functionality. This t-shirt not only represents those principles but also feels great to wear. It's evident that the designer poured their creativity into making this t-shirt stand out.\"",
+      "rating": 5,
+      "date": "August 17, 2023"
+    },
+    {
+      "id": 5,
+      "user": "Liam K.",
+      "content": "\"This t-shirt is a fusion of comfort and creativity. The fabric is soft, and the design speaks volumes about the designer's skill. It's like wearing a piece of art that reflects my passion for both design and fashion.\"",
+      "rating": 5,
+      "date": "August 18, 2023"
+    },
+    {
+      "id": 6,
+      "user": "Samantha D.",
+      "content": "\"I absolutely love this t-shirt! The design is unique and the fabric feels so comfortable. As a fellow designer, I appreciate the attention to detail. It's become my favorite go-to shirt.\"",
+      "rating": 5,
+      "date": "August 19, 2023"
+    }
+  ],
+  "dressStyles": [
+    {
+      "id": 1,
+      "title": "Casual",
+      "url": "/shop#casual",
+      "srcUrl": "/images/dress-style-1.png"
+    },
+    {
+      "id": 2,
+      "title": "Formal",
+      "url": "/shop#formal",
+      "srcUrl": "/images/dress-style-2.png"
+    },
+    {
+      "id": 3,
+      "title": "Party",
+      "url": "/shop#party",
+      "srcUrl": "/images/dress-style-3.png"
+    },
+    {
+      "id": 4,
+      "title": "Gym",
+      "url": "/shop#gym",
+      "srcUrl": "/images/dress-style-4.png"
+    }
+  ],
+  "categories": [
+    {
+      "title": "T-shirts",
+      "slug": "/shop?category=t-shirts"
+    },
+    {
+      "title": "Shorts",
+      "slug": "/shop?category=shorts"
+    },
+    {
+      "title": "Shirts",
+      "slug": "/shop?category=shirts"
+    },
+    {
+      "title": "Hoodie",
+      "slug": "/shop?category=hoodie"
+    },
+    {
+      "title": "Jeans",
+      "slug": "/shop?category=jeans"
+    }
+  ],
+  "colors": [
+    {
+      "name": "Brown",
+      "code": "bg-[#4F4631]"
+    },
+    {
+      "name": "Green",
+      "code": "bg-[#314F4A]"
+    },
+    {
+      "name": "Blue",
+      "code": "bg-[#31344F]"
+    }
+  ],
+  "specs": [
+    {
+      "label": " Material composition",
+      "value": "100% Cotton"
+    },
+    {
+      "label": "Care instructions",
+      "value": "Machine wash warm, tumble dry"
+    },
+    {
+      "label": "Fit type",
+      "value": "Classic Fit"
+    },
+    {
+      "label": "Pattern",
+      "value": "Solid"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is the material of the t-shirt?",
+      "answer": "Provide details about the fabric type (e.g., cotton, polyester, blend), weight, and any specific features."
+    },
+    {
+      "question": "What are the care instructions for the t-shirt?",
+      "answer": "Outline recommended washing, drying, and ironing methods to maintain quality and longevity."
+    },
+    {
+      "question": "What is the design or print on the t-shirt made of?",
+      "answer": "Explain the material used for the design (e.g., vinyl, screen print, embroidery) and its durability."
+    },
+    {
+      "question": "Is the t-shirt unisex or designed for specific genders?",
+      "answer": "Indicate whether the shirt is suitable for both men and women or targeted towards a particular gender."
+    },
+    {
+      "question": "What are the shipping options and costs?",
+      "answer": "Provide information about shipping methods, estimated delivery times, and associated fees."
+    },
+    {
+      "question": "What is the return policy for the t-shirt?",
+      "answer": "Outline the return window, conditions, and refund or exchange procedures."
+    }
+  ],
+  "paymentBadges": [
+    {
+      "id": 1,
+      "srcUrl": "/icons/Visa.svg"
+    },
+    {
+      "id": 2,
+      "srcUrl": "/icons/mastercard.svg"
+    },
+    {
+      "id": 3,
+      "srcUrl": "/icons/paypal.svg"
+    },
+    {
+      "id": 4,
+      "srcUrl": "/icons/applePay.svg"
+    },
+    {
+      "id": 5,
+      "srcUrl": "/icons/googlePay.svg"
+    }
+  ],
+  "dressStyleFilters": [
+    {
+      "title": "Casual",
+      "slug": "/shop?style=casual"
+    },
+    {
+      "title": "Formal",
+      "slug": "/shop?style=formal"
+    },
+    {
+      "title": "Party",
+      "slug": "/shop?style=party"
+    },
+    {
+      "title": "Gym",
+      "slug": "/shop?style=gym"
+    }
+  ],
+  "productTabs": [
+    {
+      "id": 1,
+      "label": "Product Details"
+    },
+    {
+      "id": 2,
+      "label": "Rating & Reviews"
+    },
+    {
+      "id": 3,
+      "label": "FAQs"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "date": "2023-10-25",
+      "status": "pending",
+      "total": 1499,
+      "shippingAddress": "B-204, Green Heights, Andheri West, Mumbai, 400053",
+      "paymentMethod": "Credit Card ending in 4242",
+      "items": [
+        {
+          "id": 1,
+          "name": "Gradient Graphic T-shirt",
+          "price": 1499,
+          "quantity": 1,
+          "image": "/images/pic1.png"
+        }
+      ]
+    },
+    {
+      "id": "ORD-1002",
+      "date": "2023-10-15",
+      "status": "delivered",
+      "total": 2998,
+      "shippingAddress": "12, Park Street, Kolkata, 700016",
+      "paymentMethod": "UPI (PhonePe)",
+      "items": [
+        {
+          "id": 2,
+          "name": "Polo with Tipping Details",
+          "price": 1999,
+          "quantity": 1,
+          "image": "/images/pic2.png"
+        },
+        {
+          "id": 3,
+          "name": "Black Striped T-shirt",
+          "price": 999,
+          "quantity": 1,
+          "image": "/images/pic3.png"
+        }
+      ]
+    },
+    {
+      "id": "ORD-1003",
+      "date": "2023-09-20",
+      "status": "cancelled",
+      "total": 799,
+      "shippingAddress": "Flat 4B, Kaveri Apartments, Indiranagar, Bangalore, 560038",
+      "paymentMethod": "Cash on Delivery",
+      "items": [
+        {
+          "id": 4,
+          "name": "Skinny Fit Jeans",
+          "price": 799,
+          "quantity": 1,
+          "image": "/images/pic4.png"
+        }
+      ]
+    }
+  ]
+}
