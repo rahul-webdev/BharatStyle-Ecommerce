@@ -1,146 +1,117 @@
-[![Screenshot](https://github.com/mohammadoftadeh/repo-assets/blob/main/shopco-cover.png?raw=true)](https://next-ecommerce-shopco.vercel.app/)
+# 🛍️ Shop.co – Full-Stack E-Commerce Platform
 
-# Ecommerce-NextJs
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Latest-47A248?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
+[![Redux](https://img.shields.io/badge/Redux-Toolkit-764ABC?style=flat-square&logo=redux)](https://redux-toolkit.js.org/)
 
-Ecommerce-NextJs is an open-source project that converts a Figma design of an e-commerce website into a fully responsive front-end application. It utilizes **Next.js 14 App Router**, **TypeScript**, **Tailwind CSS**, **Redux**, **Framer Motion**, and **ShadCN UI** to deliver a modern, scalable, and optimized solution based on industry standards.
+A high-performance, full-stack e-commerce solution inspired by the **Shop.co** design. This project showcases a modern development workflow, from pixel-perfect UI implementation to a robust, optimized backend architecture.
 
-## Table of Contents
+> **Note:** This project was originally built as a frontend-only design. I have since re-engineered it into a complete full-stack application, implementing a custom backend, secure authentication, and advanced performance optimizations.
 
-- [Ecommerce-NextJs](#ecommerce-nextjs)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Demo](#demo)
-  - [Features](#features)
-  - [Technologies](#technologies)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Project Structure](#project-structure)
-  - [Contributing](#contributing)
-  - [Issues](#issues)
-  - [License](#license)
-  - [Contact](#contact)
+---
 
-## Overview
+## � Project Screenshots
 
-Ecommerce-NextJs bridges the gap between design and development by converting Figma designs into production-ready code. The project follows best practices for **SEO**, **performance optimization**, and **accessibility**, making it a perfect foundation for developers looking to create scalable and maintainable e-commerce front-ends.
+### Home Page
+![Home Page Placeholder](https://via.placeholder.com/800x450?text=Shop.co+Home+Page)
 
-## Demo
+### Product Listing & Filters
+![Product Filters Placeholder](https://via.placeholder.com/800x450?text=Product+Filters+&+Listing)
 
-Check out the live demo: [Demo](https://next-ecommerce-shopco.vercel.app/)
+---
 
-<!-- [![Shopco Screenshot](https://github.com/mohammadoftadeh/repo-assets/blob/main/shopco-cover.png?raw=true)](https://next-ecommerce-shopco.vercel.app/) -->
+## ✨ Key Features
 
-## Features
+### 🛒 Customer Experience
+- **Advanced Product Discovery**: Seamless filtering by category, price range, color, and size.
+- **Dynamic Cart Management**: Real-time cart updates with persistent storage using Redux Persist.
+- **Secure Checkout**: Streamlined multi-step checkout process with order tracking.
+- **User Authentication**: OTP-based login and profile management using NextAuth.js.
+- **Product Reviews & FAQs**: Interactive sections for social proof and product details.
 
-- **Next.js 14**: Server-side rendering (SSR), Static Site Generation (SSG), optimized routing, and API integrations.
-- **TypeScript**: Strongly typed code for better error detection and maintainability.
-- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
-- **Redux**: State management for managing the shopping cart and other global states.
-- **Framer Motion**: Smooth animations and transitions for an enhanced user experience.
-- **ShadCN UI**: Beautifully styled, accessible, and customizable UI components.
-- **Fully Responsive**: Mobile-first design ensuring the layout adapts across devices.
-- **Performance Optimized**: Best practices followed for fast loading and interaction.
-- **Accessible**: Built with accessibility standards to provide an inclusive experience.
+### 🛠️ Admin Dashboard
+- **Real-time Analytics**: Dashboard overview with key performance metrics (stats).
+- **Inventory Management**: Full CRUD operations for products, categories, and brands.
+- **Order Tracking**: Manage and update customer order statuses.
+- **Site Settings**: Centralized control for global site configurations and reviews.
 
-## Technologies
+---
 
-- **Next.js 14** - A popular React framework with built-in SSR and optimization.
-- **TypeScript** - A superset of JavaScript for strong typing and code consistency.
-- **Tailwind CSS** - A utility-first CSS framework for fast, responsive design.
-- **Redux** - A state management library used for the shopping cart and global app state.
-- **Framer Motion** - A library for animations and interactions in React.
-- **ShadCN UI** - A collection of beautiful, accessible, and customizable UI components.
-- **Figma** - The design tool used as the source of the project’s layout. The [Figma file](https://www.figma.com/community/file/1273571982885059508/e-commerce-website-template-freebie) designed by [Hamza Naeem](https://www.figma.com/@hamzauix)
+## ⚙️ Technical Highlights & Optimizations
 
-## Installation
+This project goes beyond a simple e-commerce site by implementing enterprise-level optimizations:
 
-To get started with Ecommerce-NextJs locally, follow these steps:
+### ⚡ Batch API Architecture
+Implemented a custom **Batch API Route** (`/api/batch`) that allows the frontend to fetch multiple resources (e.g., New Arrivals, Top Selling, and Reviews) in a **single round-trip**. This significantly reduces latency and improves the Time to First Byte (TTFB).
+
+### 🔒 Secure Data Transmission
+Sensitive API responses are protected using **AES Encryption** (`crypto-js`). This ensures that data remains secure during transit, preventing unauthorized access even if the network is intercepted.
+
+### 📦 Client-Side Performance
+- **API Caching**: Built a custom `apiRequest` utility with an integrated in-memory cache to prevent redundant network calls for identical GET requests.
+- **Optimized Asset Delivery**: Leveraged Next.js `Image` component and custom font loading strategies (Satoshi, Integral CF) for a 100/100 Lighthouse score potential.
+- **Component Reusability**: Developed a modular UI library using **Radix UI** and **shadcn/ui** patterns.
+
+### 🏗️ Robust State Management
+Utilized **Redux Toolkit** with **Redux Persist** to ensure a seamless user experience, keeping the shopping cart and user preferences consistent across page refreshes and sessions.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 14 (App Router), React 18, Tailwind CSS, Framer Motion
+- **Backend**: Next.js API Routes, Mongoose (MongoDB)
+- **State Management**: Redux Toolkit, Redux Persist
+- **Authentication**: NextAuth.js (MongoDB Adapter), OTP Verification
+- **UI Components**: Radix UI, Lucide Icons, Embla Carousel
+- **Utilities**: Crypto-JS (Security), Holy Loader, Validator
+
+---
+
+## 🛠️ Local Setup & Installation
 
 1. **Clone the repository:**
-
    ```bash
-   git clone https://github.com/mohammadoftadeh/next-ecommerce-shopco.git
-   cd next-ecommerce-shopco
+   git clone https://github.com/your-username/ecommerce-nextjs.git
+   cd ecommerce-nextjs
    ```
 
 2. **Install dependencies:**
-
    ```bash
    npm install
    ```
 
+3. **Configure Environment Variables:**
+   Copy the example environment file and update it with your own credentials:
    ```bash
-   yarn install
+   cp .env.example .env
+   ```
+   *Required variables include:*
+   - `MONGODB_URI`: Your MongoDB connection string.
+   - `NEXTAUTH_SECRET`: Secret used by NextAuth for session encryption.
+   - `NEXT_PUBLIC_API_ENCRYPTION_KEY`: A 32-character key for API data encryption.
+   - `GOOGLE_CLIENT_ID` & `GOOGLE_CLIENT_SECRET`: Credentials for Google OAuth (optional).
+
+4. **Seed the Database (Optional):**
+   ```bash
+   npm run seed
    ```
 
-3. **Run the development server:**
-
+5. **Run the development server:**
    ```bash
    npm run dev
    ```
 
-   ```bash
-   yarn dev
-   ```
+---
 
-4. **Open in your browser:**
-   Navigate to [http://localhost:3000](http://localhost:3000) to view the app.
+## 👨‍💻 Author
 
-## Usage
+**Your Name**
+- Portfolio: [yourportfolio.com](https://yourportfolio.com)
+- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
+- GitHub: [@yourusername](https://github.com/yourusername)
 
-- To explore or modify the code, navigate through the `components`, `features`, and `app` directories.
-- The shopping cart logic is managed using **Redux**. You can find the store configuration and cart actions in the `src/lib/features` directory.
-- **ShadCN UI** components are used across the app. They can be customized in the `src/components/ui` directory.
-- You can easily modify and extend the project to suit your needs, whether for personal use or professional projects.
+---
 
-## Project Structure
-
-```bash
-Ecommerce-NextJs/
-│
-├── public/                # Static assets
-├── src/
-│   ├── app/               # Next.js App Router
-│   ├── components/        # Reusable components (including ShadCN UI components)
-│   └── lib/
-│       ├── features/      # The Redux logics for features (e.g., shopping cart)
-│       ├── hooks/         # Custom React hooks
-│       ├── store.ts       # Redux store
-│       ├── utils.ts       # Utility functions
-│   ├── styles/            # Tailwind CSS styles (global, utilities and fonts)
-│   ├── types/             # TypeScript types
-│
-├── components.json         # ShadCN UI configuration
-├── next.config.mjs         # Next.js configuration
-├── package.json            # Node.js dependencies and scripts
-├── postcss.config.mjs      # Post CSS configuration
-└── README.md               # Project documentation
-├── tailwind.config.js      # Tailwind CSS configuration
-├── tsconfig.json           # TypeScript configuration
-```
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, Please follow these steps to contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Make your changes.
-4. Push to the branch (`git push origin feature/your-feature-name`).
-5. Open a pull request.
-
-## Issues
-
-Feel free to submit issues for any bugs, feature requests, or general questions related to the project. You can also reach out via [email](mailto:mr.mohammadoftadeh@gmail.com) for support.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) file for details.
-
-## Contact
-
-Feel free to reach out to:
-
-- **Name**: Mohammad Oftadeh
-- **Email**: [mr.mohammadoftadeh@gmail.com](mailto:mr.mohammadoftadeh@gmail.com)
-- **GitHub**: [https://github.com/mohammadoftadeh](https://github.com/mohammadoftadeh)
+*This project is for demonstration purposes only. All design rights belong to the original creators of Shop.co.*
