@@ -102,16 +102,3 @@ Utilized **Redux Toolkit** with **Redux Persist** to ensure a seamless user expe
    ```bash
    npm run dev
    ```
-
----
-
-## 👨‍💻 Author
-
-**Your Name**
-- Portfolio: [yourportfolio.com](https://yourportfolio.com)
-- LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- GitHub: [@yourusername](https://github.com/yourusername)
-
----
-
-*This project is for demonstration purposes only. All design rights belong to the original creators of Shop.co.*
