@@ -1,20 +1,20 @@
-# 🛍️ Shop.co – Full-Stack E-Commerce Platform
+# 🛍️ BharatStyle – Full-Stack E-Commerce Platform
 
 [![Next.js](https://img.shields.io/badge/Next.js-14-black?style=flat-square&logo=next.js)](https://nextjs.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-Latest-47A248?style=flat-square&logo=mongodb)](https://www.mongodb.com/)
 [![Redux](https://img.shields.io/badge/Redux-Toolkit-764ABC?style=flat-square&logo=redux)](https://redux-toolkit.js.org/)
 
-A high-performance, full-stack e-commerce solution inspired by the **Shop.co** design. This project showcases a modern development workflow, from pixel-perfect UI implementation to a robust, optimized backend architecture.
+A high-performance, full-stack e-commerce platform. This project utilizes the **Shop.co** UI as a core template, which I have significantly updated, optimized, and integrated with a custom-built backend.
 
-> **Note:** This project was originally built as a frontend-only design. I have since re-engineered it into a complete full-stack application, implementing a custom backend, secure authentication, and advanced performance optimizations.
+> **Note:** Originally a frontend-only design, I have re-engineered this into a complete full-stack application (BharatStyle), implementing a robust backend architecture, secure authentication, and advanced performance optimizations.
 
 ---
 
-## � Project Screenshots
+## 📸 Project Screenshots
 
 ### Home Page
-![Home Page Placeholder](https://via.placeholder.com/800x450?text=Shop.co+Home+Page)
+![Home Page Placeholder](https://via.placeholder.com/800x450?text=BharatStyle+Home+Page)
 
 ### Product Listing & Filters
 ![Product Filters Placeholder](https://via.placeholder.com/800x450?text=Product+Filters+&+Listing)
