@@ -13,11 +13,17 @@ A high-performance, full-stack e-commerce platform. This project utilizes the **
 
 ## 📸 Project Screenshots
 
-### Home Page
-![Home Page Placeholder](https://via.placeholder.com/800x450?text=BharatStyle+Home+Page)
+### 🏠 Home Page
+![Home Page](screenshots/screenshot1.png)
 
-### Product Listing & Filters
-![Product Filters Placeholder](https://via.placeholder.com/800x450?text=Product+Filters+&+Listing)
+### 🛍️ Shop Page & Filters
+![Shop Page](screenshots/screenshot2.png)
+
+### 📦 Product Details
+![Product Details](screenshots/screenshot3.png)
+
+### 🛠️ Admin Dashboard
+![Admin Dashboard](screenshots/screenshot4.png)
 
 ---
 
